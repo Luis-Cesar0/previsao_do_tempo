@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="carTempo">
+            
+            <form action="#" method="get" id="contPesCidade">
+                <input type="search" name="pesCidadeTempo" id="pescidadeTempo">
+                <button type="submit" id="btnPesquisar"><i class="bi bi-search"></i></button>
+            </form>
+            <h1 id="tituloCidade">Tempo em Belo Horizonte </h1>
+            <div id="contInfoTempo">
+                <div class="exibeInfoTempo">
+                    <p id="temperatura">Temperatura 27°</p>
+                    <p id="umidade">Umidade 60%</p>
+                </div>
+                <div class="exibeInfoTempo">
+                    <img src="img/nuSol.png" alt="nuvem e Sol" width="40px" id="iconCeu">
+                    <p id="descriCeu">sol forte</p>
+                </div>
+                <div id="contPrinCidades">
+                    <div class="cidadesCont">
+                        <button class="cidades" value="Fortaleza">Fortaleza</button>
+                        <button class="cidades" value="Recife">Recife</button>
+                        <button class="cidades" value="São Paulo">São Paulo</button>
+                        <button class="cidades" value="Rio de Janeiro">Rio de Janeiro</button>
+                    </div>
+                    <div class="cidadesCont">
+                        <button class="cidades" value="Brasília">Brasília</button>
+                        <button class="cidades" value="Belém">Belém</button>
+                        <button class="cidades" value="Belo Horizonte">Belo Horizonte</button>
+                        <button class="cidades" value="Manaus">Manaus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
